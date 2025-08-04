@@ -12,6 +12,12 @@
 ---
 
 ### 2. TCP Three-Way Handshake and Four-Way Handshake; Why These Numbers?  
+- HTTPS Handshake Process
+1. Client sends `ClientHello`.
+2. Server responds with `ServerHello` and certificate.
+3. Client verifies certificate and sends pre-master key.
+4. Both compute session key.
+5. Encrypted communication starts.
 - **Three-Way Handshake (Connection Establishment):**  
   1. Client sends SYN to server.  
   2. Server replies with SYN-ACK.  
@@ -123,4 +129,139 @@
 - Encryption with symmetric keys negotiated via asymmetric cryptography.  
 - Certificates verify server identity.  
 - Integrity checks prevent tampering.
+
+
+#### 17. Describe the process from entering a URL to seeing a web page.
+
+1. DNS resolution: Convert domain to IP address.
+2. TCP handshake: Establish connection (3-way handshake).
+3. TLS handshake (if HTTPS): Negotiate encryption.
+4. HTTP request is sent.
+5. Server processes and returns a response.
+6. Browser parses and renders the page.
+
+#### 18. Differences between WebSocket and HTTP
+
+* HTTP: request-response, one-way.
+* WebSocket: full-duplex, real-time communication.
+
+
+#### 19. Why use CDN for static resources?
+
+* Faster loading
+* Reduced server load
+* Improved reliability
+
+#### 20. DNS Hijacking
+
+* Intercepting or modifying DNS responses to redirect users.
+
+#### 21. HTTP Message Structure
+
+**Request:** `GET /path HTTP/1.1` + headers + body
+**Response:** `HTTP/1.1 200 OK` + headers + body
+
+#### 22. Why HTTPS is Secure
+
+* Encryption
+* Server identity verification
+* Integrity protection
+
+#### 23. Axios Principle
+
+* Promise-based HTTP client using `XMLHttpRequest`
+* Supports interceptors, auto JSON, cancellation
+
+#### 24. HTTP/3 Overview
+
+* Based on QUIC over UDP
+* Built-in encryption (TLS 1.3)
+* Multiplexing without TCP head-of-line blocking
+
+#### 25. Handling Cookies in Cross-Origin
+
+* Use `withCredentials: true`
+* Server must allow credentials and set correct headers
+
+#### 26. HTTP/3 Reliability on UDP
+
+* QUIC handles packet loss, order, retransmission, and ACKs.
+
+#### 27. WebSocket Connection Process
+
+* Starts as HTTP handshake with `Upgrade: websocket` header
+* Server responds with `101 Switching Protocols`
+* Switches to full-duplex WebSocket
+
+#### 28. HTTPS and MITM Protection
+
+* TLS encrypts data
+* Valid certificates from trusted CAs
+* Prevents tampering
+
+#### 27. WebSocket Handshake
+
+* Initial HTTP upgrade request and response before WebSocket is established
+
+#### 28. Secure Cookies over HTTPS
+
+```http
+Set-Cookie: name=value; Secure; SameSite=None
+```
+
+#### 29. HTTP Versions Comparison
+
+| Feature      | HTTP/1.0 | HTTP/1.1 | HTTP/2 |
+| ------------ | -------- | -------- | ------ |
+| Persistent   | No       | Yes      | Yes    |
+| Multiplexing | No       | No       | Yes    |
+| Compression  | No       | No       | Yes    |
+| Binary       | No       | No       | Yes    |
+
+#### 30. DNS Prefetching
+
+```html
+<link rel="dns-prefetch" href="//example.com">
+```
+
+#### 31. Application Layer Protocols
+
+* HTTP, HTTPS, FTP, SMTP, IMAP, POP3, DNS, WebSocket, MQTT, SSH, Telnet
+
+#### 32. TCP Packet Loss Detection
+
+* Retransmission timeouts
+* Duplicate ACKs
+* Selective ACKs (SACK)
+
+#### 33. TCP and HTTP Relationship
+
+* HTTP uses TCP to send/receive data reliably
+
+#### 34. Browser Cache Types
+
+* Memory cache
+* Disk cache
+* Service Worker cache
+* Storage APIs: localStorage, sessionStorage, IndexedDB
+
+#### 35. Common Cache-Control Values
+
+* `no-cache`
+* `no-store`
+* `max-age=...`
+* `public`, `private`
+* `must-revalidate`
+
+#### 36. TCP/IP Protocol Overview
+
+* 4 layers: Application, Transport, Internet, Link
+* IP handles addressing; TCP ensures reliability
+
+#### 37. 304 Process
+
+* Client sends `If-Modified-Since` or `If-None-Match`
+* Server responds with `304 Not Modified` if content unchanged
+* Browser uses cached version
+
 
