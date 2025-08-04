@@ -3,9 +3,9 @@
 - MySQL is a relational database supporting complex transactions and SQL queries, suitable for structured data and long-term storage.
 They are often used together: Redis alleviates MySQL load, enabling high concurrency and low latency access.
 
-# Redis vs MySQL Comparison
+#### Redis vs MySQL Comparison
 
-## Core Differences
+##### Core Differences
 
 | Feature       | MySQL                                      | Redis                                      |
 |---------------|--------------------------------------------|--------------------------------------------|
@@ -15,7 +15,7 @@ They are often used together: Redis alleviates MySQL load, enabling high concurr
 | Main Usage    | Persistent data storage, transactional processing | Caching, high-performance data access, message queue, distributed locks |
 | Query Language| SQL                                         | Custom commands (`GET`, `SET`, `HGET`, etc.)|
 
-## Performance Comparison (QPS)
+##### Performance Comparison (QPS)
 
 | Aspect       | MySQL                    | Redis                      |
 |--------------|--------------------------|----------------------------|
@@ -25,7 +25,7 @@ They are often used together: Redis alleviates MySQL load, enabling high concurr
 
 **Conclusion**: Redis offers much higher performance but cannot replace MySQL's data integrity and complex query capabilities.
 
-## Data Consistency & Persistence
+##### Data Consistency & Persistence
 
 | Aspect         | MySQL                      | Redis                                        |
 |----------------|----------------------------|----------------------------------------------|
@@ -33,7 +33,7 @@ They are often used together: Redis alleviates MySQL load, enabling high concurr
 | Consistency    | ACID compliant, supports transactions | Eventual consistency by default, transactions supported but no rollback |
 | Crash Recovery | Redo/undo logs enable recovery | Possible data loss of last operations depending on config |
 
-## Use Case Comparison
+##### Use Case Comparison
 
 | Scenario                     | Suitable for Redis                   | Suitable for MySQL                 |
 |------------------------------|-------------------------------------|----------------------------------|
@@ -44,7 +44,7 @@ They are often used together: Redis alleviates MySQL load, enabling high concurr
 | Real-time queues, pub/sub     | ✅ (List, SortedSet, Pub/Sub)       | ❌                               |
 | Complex queries (JOIN, GROUP BY) | ❌ (no SQL support)                  | ✅                               |
 
-## Redis Cannot Replace MySQL (But They Complement Each Other Well)
+##### Redis Cannot Replace MySQL (But They Complement Each Other Well)
 
 Many high-performance systems use a combination of **MySQL + Redis**:
 
