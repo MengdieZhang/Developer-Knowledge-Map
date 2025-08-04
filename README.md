@@ -7,11 +7,11 @@ Organized notes for fullstack development and interview prep.
 - `0-foundations/` Programming languages, Git, IDEs, Agile teamwork
 - `1-backend/` Java/.NET, databases, data structures, algorithms
 - `2-frontend/`
-  - 2.1 React
+  - 🍏 2.1 React
   - HTML/CSS/JS, React/Angular, API integration
 - `3-testing-microservices/` JUnit, Docker, patterns, legacy code
 - `4-security-devops-cloud/`
-  - <span style="color:green"> 4.1 network security </span>
+  - 🍏 4.1 network security 
   - JWT, CI/CD, containers, cloud
 - `5-software-process-design/` Agile, reviews, system design
 - `6-capstone-project/` Fullstack project and team work
