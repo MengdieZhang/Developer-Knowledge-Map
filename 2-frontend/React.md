@@ -106,8 +106,8 @@ Use React.memo, shouldComponentUpdate, memoize callbacks/values, code-splitting,
 React uses a synthetic event system with event delegation at the root, ensuring cross-browser consistency and performance.
 
 ### 20. React key role
-Helps React identify elements in lists for efficient re-rendering and DOM updates.
+- Helps React identify elements in lists for efficient re-rendering and DOM updates.
 
 ### 21. Class components vs functional components
-Class components use lifecycle methods and this.state. Functional components use hooks, are more concise, and avoid this.
+- Class components use lifecycle methods and this.state. Functional components use hooks, are more concise, and avoid this.
 
