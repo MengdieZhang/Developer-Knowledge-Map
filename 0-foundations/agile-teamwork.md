@@ -3,10 +3,10 @@
 ## Concept Overview
 
 - **Agile Ceremonies**: Core meetings in Agile methodology that facilitate communication, planning, and feedback within teams.
-    - **Daily Standup**: Quick check-in on progress, blockers, and plans.
-    - **Sprint Planning**: Define and estimate the work for the upcoming sprint.
-    - **Sprint Review**: Showcase completed work to stakeholders.
-    - **Retrospective**: Reflect on the sprint to identify improvements.
+  - **Daily Standup**: Quick check-in on progress, blockers, and plans.
+  - **Sprint Planning**: Define and estimate the work for the upcoming sprint.
+  - **Sprint Review**: Showcase completed work to stakeholders.
+  - **Retrospective**: Reflect on the sprint to identify improvements.
 - **Pull Requests (PRs)**: A method for submitting code changes for review before they are merged into a shared branch.
 
 ## Real-World Use
@@ -21,20 +21,20 @@
 - Don’t let **standups** become long status reports — stay time-boxed.
 - **Retrospectives** are most valuable when honest and action-oriented.
 - A good PR:
-    - Has a clear title and description.
-    - Tags relevant issues or tickets.
-    - Limits scope — one concern per PR.
-    - Seeks feedback, not just approval.
+  - Has a clear title and description.
+  - Tags relevant issues or tickets.
+  - Limits scope — one concern per PR.
+  - Seeks feedback, not just approval.
 
 ## Interview Insights
 
 - Expect questions like:
-    - "What’s your role during sprint planning?"
-    - "How do you handle PR feedback you don’t agree with?"
-    - "How does your team run retrospectives?"
+  - "What’s your role during sprint planning?"
+  - "How do you handle PR feedback you don’t agree with?"
+  - "How does your team run retrospectives?"
 - Emphasize:
-    - Communication and feedback culture.
-    - Your ability to explain your code during reviews.
+  - Communication and feedback culture.
+  - Your ability to explain your code during reviews.
 
 ## Mini Scenario
 
