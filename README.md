@@ -19,4 +19,5 @@ Organized notes for fullstack development and interview prep.
 - `8-ai-datascience/` ML basics, pandas, small project
 - `9-devops-specialist/` Terraform, Jenkins, monitoring
 - `10-mobile-web/` Ionic, PWA, responsive web
+- `11-algorithm/` 
 
