@@ -11,7 +11,7 @@ Organized notes for fullstack development and interview prep.
   - HTML/CSS/JS, React/Angular, API integration
 - `3-testing-microservices/` JUnit, Docker, patterns, legacy code
 - `4-security-devops-cloud/`
-  - 4.1 network security
+  - <span style="color:green"> 4.1 network security </span>
   - JWT, CI/CD, containers, cloud
 - `5-software-process-design/` Agile, reviews, system design
 - `6-capstone-project/` Fullstack project and team work
