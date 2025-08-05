@@ -1,56 +1,69 @@
-# Teamwork Essentials: Agile Ceremonies, Pull Requests
+# Version Control: Git, Branching, Pair Programming
 
 ## Concept Overview
 
-- **Agile Ceremonies**: Core meetings in Agile methodology that facilitate communication, planning, and feedback within teams.
-  - **Daily Standup**: Quick check-in on progress, blockers, and plans.
-  - **Sprint Planning**: Define and estimate the work for the upcoming sprint.
-  - **Sprint Review**: Showcase completed work to stakeholders.
-  - **Retrospective**: Reflect on the sprint to identify improvements.
-- **Pull Requests (PRs)**: A method for submitting code changes for review before they are merged into a shared branch.
+* **Git**: A distributed version control system that tracks code changes and allows multiple developers to collaborate on a shared codebase.
+* **Branching**: Creating isolated copies of code to develop features, fix bugs, or experiment, without affecting the main codebase.
+* **Pair Programming**: A technique where two developers work together at one workstation. One writes code (driver), while the other reviews it (navigator).
 
 ## Real-World Use
 
-- **Standups** keep everyone aligned and help surface blockers early.
-- **Planning/Grooming** ensures developers understand tasks and estimate efforts.
-- **Retrospectives** are crucial for continuous improvement.
-- **PRs** allow for peer review, catching bugs, and encouraging collaboration.
+* Teams use **feature branches** for developing new functionalities, and **hotfix branches** for urgent fixes.
+* **Git** is used for code versioning, collaboration, and change history.
+* **Pair programming** is often used in high-stakes modules, onboarding, or knowledge sharing.
 
 ## Common Pitfalls & Tips
 
-- Don’t let **standups** become long status reports — stay time-boxed.
-- **Retrospectives** are most valuable when honest and action-oriented.
-- A good PR:
-  - Has a clear title and description.
-  - Tags relevant issues or tickets.
-  - Limits scope — one concern per PR.
-  - Seeks feedback, not just approval.
+* **Long-lived branches** can cause major merge conflicts.
+* Always **pull and rebase** before opening a PR to ensure you're working on the latest version.
+* In pair programming:
+
+  * Keep roles (driver/navigator) clear.
+  * Switch roles regularly.
+  * Communicate intentions openly.
 
 ## Interview Insights
 
-- Expect questions like:
-  - "What’s your role during sprint planning?"
-  - "How do you handle PR feedback you don’t agree with?"
-  - "How does your team run retrospectives?"
-- Emphasize:
-  - Communication and feedback culture.
-  - Your ability to explain your code during reviews.
+* Be ready to describe:
+
+  * Your team’s **branching strategy** (e.g., GitFlow, trunk-based).
+  * How you **resolve merge conflicts**.
+  * Scenarios where **pair programming** helped ship better code.
+* Typical questions:
+
+  * "What do you do before merging a feature branch?"
+  * "Have you ever worked in a pair programming setting? How did it go?"
 
 ## Mini Scenario
 
-> "You’re halfway through the sprint and realize your task will take twice as long. What do you do?"
-
-🔍 You should:
-- Raise this during standup or immediately to your team.
-- Reassess scope with your product owner/scrum master.
-- Possibly re-scope or split the story for transparency and delivery.
+> "You’re working on a critical bug fix and your teammate is out sick. The fix is on a stale feature branch. What’s your next step?"
+>
+> 🔍 You should:
+>
+> * Pull the latest main branch.
+> * Rebase your stale branch.
+> * Test thoroughly.
+> * Open a detailed PR explaining urgency and changes.
 
 ## Hands-on Prompt
 
-> - Create a pull request that introduces a new helper function.
-> - Add a meaningful title (e.g., `feat: add date formatter util`).
-> - Write a description that includes:
-    >   - What was added/changed
->   - Why it was needed
->   - Any tests or edge cases considered
-> - Tag at least one reviewer and one related ticket/issue.
+> * Simulate creating a feature branch off `main`.
+> * Make a small code change (e.g., edit `README.md`).
+> * Rebase it with `main` if any changes occurred.
+> * Resolve a simple conflict.
+> * Push and create a PR with a clear title and description.
+
+## Further Reading
+
+### Git & Branching
+
+* [Pro Git Book](https://git-scm.com/book/en/v2)
+* [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+* [Git Workflow Comparisons](https://www.atlassian.com/git/tutorials/comparing-workflows)
+* [Learn Git Branching (Interactive)](https://learngitbranching.js.org/)
+
+### Pair Programming
+
+* [Martin Fowler on Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
+* [Atlassian Guide to Pair Programming](https://www.atlassian.com/agile/software-development/pair-programming)
+* [Thoughtbot’s Guide to Pair Programming](https://thoughtbot.com/blog/a-guide-to-pair-programming)
