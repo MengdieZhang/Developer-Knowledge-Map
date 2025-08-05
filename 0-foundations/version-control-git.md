@@ -18,21 +18,21 @@
 * Always **pull and rebase** before opening a PR to ensure you're working on the latest version.
 * In pair programming:
 
-    * Keep roles (driver/navigator) clear.
-    * Switch roles regularly.
-    * Communicate intentions openly.
+  * Keep roles (driver/navigator) clear.
+  * Switch roles regularly.
+  * Communicate intentions openly.
 
 ## Interview Insights
 
 * Be ready to describe:
 
-    * Your team’s **branching strategy** (e.g., GitFlow, trunk-based).
-    * How you **resolve merge conflicts**.
-    * Scenarios where **pair programming** helped ship better code.
+  * Your team’s **branching strategy** (e.g., GitFlow, trunk-based).
+  * How you **resolve merge conflicts**.
+  * Scenarios where **pair programming** helped ship better code.
 * Typical questions:
 
-    * "What do you do before merging a feature branch?"
-    * "Have you ever worked in a pair programming setting? How did it go?"
+  * "What do you do before merging a feature branch?"
+  * "Have you ever worked in a pair programming setting? How did it go?"
 
 ## Mini Scenario
 
@@ -53,5 +53,17 @@
 > * Resolve a simple conflict.
 > * Push and create a PR with a clear title and description.
 
----
+## Further Reading
 
+### Git & Branching
+
+* [Pro Git Book](https://git-scm.com/book/en/v2)
+* [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+* [Git Workflow Comparisons](https://www.atlassian.com/git/tutorials/comparing-workflows)
+* [Learn Git Branching (Interactive)](https://learngitbranching.js.org/)
+
+### Pair Programming
+
+* [Martin Fowler on Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
+* [Atlassian Guide to Pair Programming](https://www.atlassian.com/agile/software-development/pair-programming)
+* [Thoughtbot’s Guide to Pair Programming](https://thoughtbot.com/blog/a-guide-to-pair-programming)
