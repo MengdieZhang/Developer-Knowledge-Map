@@ -105,7 +105,7 @@ Neo4j (Graph DB): Social networks, recommendation engines.
 | Use Case Examples   | Banking, ERP, inventory | Social media, IoT, analytics      |
 
 
-#### 3. Object-relational impedance
+### 3. Object-relational impedance
 Object-relational impedance mismatch refers to the conceptual and technical mismatch between object-oriented programming languages (like Java, Python, C#) and relational databases (like MySQL, PostgreSQL, Oracle).
 
 #### Why does this mismatch happen?
