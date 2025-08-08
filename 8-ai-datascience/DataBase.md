@@ -48,7 +48,6 @@ They are often used together: Redis alleviates MySQL load, enabling high concurr
 
 Many high-performance systems use a combination of **MySQL + Redis**:
 
-```plaintext
 Flow: Check Redis → If miss, query MySQL → Write result back to Redis (cache penetration protection)
 
 ### 2. NoSQL VS SQL
