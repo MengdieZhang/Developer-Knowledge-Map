@@ -126,7 +126,8 @@ These two systems are based on very different paradigms, so translating between 
 
 #### Example:
 In Java
-``` class Customer {
+```
+class Customer {
     String name;
     Address address;
 }
@@ -138,7 +139,8 @@ class Address {
 ```
 
 In MySQL
-```CREATE TABLE Customer (
+```
+CREATE TABLE Customer (
     id INT PRIMARY KEY,
     name VARCHAR(100),
     address_id INT
