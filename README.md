@@ -20,10 +20,10 @@ Organized notes for fullstack development and interview prep.
 - `5-software-process-design/` Agile, reviews, system design
 - `6-capstone-project/` Fullstack project and team work
 - `7-career-prep/` Interviewing, resume, communication
-- `8-ai/data science/`
+- `8-ai/datascience/`
   - 🍏 8.1 Database
     - [MySQL vs Redis](8-ai-datascience/MySQL%20vs%20Redis.md)
-    - [NoSQL vs SQL] (8-ai-datascience/NoSQL%20vs%20SQL.md)
+    - [NoSQL vs SQL](8-ai-datascience/NoSQL%20vs%20SQL.md)
     - [Object relational impedance](8-ai-datascience/Object-relational%20impedance.md)
   - ML basics, pandas, small project
 - `9-devops-specialist/` Terraform, Jenkins, monitoring
