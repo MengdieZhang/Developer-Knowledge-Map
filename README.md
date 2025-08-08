@@ -6,7 +6,9 @@ Organized notes for fullstack development and interview prep.
 
 - `0-foundations/`
   - [0.1 aigle-teamwork](0-foundations/agile-teamwork.md)
-  Programming languages, Git, IDEs, Agile teamwork
+  - [0.2 code quality testing](0-foundations/code-quality-testing.md)
+  - [0.3](0-foundations/version-control-git.md)
+  - Programming languages, Git, IDEs, Agile teamwork
 - `1-backend/` Java/.NET, databases, data structures, algorithms
 - `2-frontend/`
   - 🍏 [2.1 React](/2-frontend/React.md)
