@@ -30,3 +30,9 @@ Organized notes for fullstack development and interview prep.
 - `10-mobile-web/` Ionic, PWA, responsive web
 - `11-algorithm/` 
 
+Resource:
+1. https://www.fullstack.cafe/
+2. https://github.com/donnemartin/system-design-primer
+3. https://www.baeldung.com/
+4. https://javaguide.cn/
+5. http://www.cyc2018.xyz/#%E7%AE%97%E6%B3%95
